@@ -44,6 +44,7 @@ bool IpAddress(const string a)
 			continue;
 		}	
 		tmp_str = a.at(i);
+		if(NotNumber(tmp_str)) return false;
 		tmp_int[count] = tmp_int[count] * 10 + (tmp_str - '0');	
 	}
 	if(count != 3) return false;
