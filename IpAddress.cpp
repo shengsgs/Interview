@@ -72,10 +72,14 @@ int main()
 		{
 			if(IpAddress(input))
 			{
-				cout<<"The IP Matches successfully"<<endl;
+				cout<<"***The IP Matches successfully***"<<endl;
 			}
 			else
-				cout<<"The IP invalid"<<endl;
+				cout<<"***The IP invalid***"<<endl;
+
+			cout<<"Input  quit  for quiting\n"
+			    <<"Or Input another string to test"
+		    	    <<endl;
 		}
 		
 	}
